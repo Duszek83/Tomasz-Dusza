@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
 
 /*
 =============== 
@@ -19,8 +19,8 @@ Variables
 	--clr-additional-2: rgb(179, 180, 184);
 
 	--clr-white: #fff;
-	--ff-primary: "Roboto", sans-serif;
-	--ff-secondary: "Open Sans", sans-serif;
+	--ff-primary: 'Roboto', sans-serif;
+	--ff-secondary: 'Open Sans', sans-serif;
 	--transition: all 0.3s linear;
 	--spacing: 0.25rem;
 	--radius: 0.5rem;
@@ -360,7 +360,7 @@ Hero
 	}
 	.hero-img::before,
 	.about-img::before {
-		content: "";
+		content: '';
 		position: absolute;
 		width: 100%;
 		height: 100%;
@@ -370,7 +370,7 @@ Hero
 		border-radius: var(--radius);
 	}
 	.alt-photo {
-		content: url("../images/about-img.jpeg");
+		content: url('../images/about-img.jpeg');
 	}
 }
 .transition-1 {
@@ -542,7 +542,7 @@ Projects
 	opacity: 0.1;
 }
 .project::after {
-	content: "";
+	content: '';
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -574,8 +574,8 @@ Projects
 		grid-template-rows: 200px 200px;
 		gap: 1rem;
 		grid-template-areas:
-			"a b b"
-			"a c d";
+			'a b b'
+			'a c d';
 	}
 	.project-img {
 		height: 100%;
@@ -841,20 +841,24 @@ Products Page
 	grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
 	gap: 3rem 1rem;
 }
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
 	.blog {
 		height: calc(100vh - 198px - 5rem);
 	}
-}
+} */
 .card-back-1 {
 	background: linear-gradient(rgba(53, 53, 53, 0.6), rgba(53, 53, 53, 0.6)),
-		url("../images/project-1.jpeg") center/cover no-repeat;
+		url('../images/project-1.jpeg') center/cover no-repeat;
 }
 .card-back-2 {
 	background: linear-gradient(rgba(53, 53, 53, 0.6), rgba(53, 53, 53, 0.6)),
-		url("../images/project-2.jpeg") center/cover no-repeat;
+		url('../images/project-2.jpeg') center/cover no-repeat;
 }
 .card-back-3 {
 	background: linear-gradient(rgba(53, 53, 53, 0.6), rgba(53, 53, 53, 0.6)),
-		url("../images/project-3.jpeg") center/cover no-repeat;
+		url('../images/project-3.jpeg') center/cover no-repeat;
+}
+.card-back-4 {
+	background: linear-gradient(rgba(53, 53, 53, 0.6), rgba(53, 53, 53, 0.6)),
+		url('../images/project-4.jpeg') center/cover no-repeat;
 }
