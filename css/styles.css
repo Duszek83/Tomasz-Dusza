@@ -574,8 +574,8 @@ Projects
 		grid-template-rows: 200px 200px;
 		gap: 1rem;
 		grid-template-areas:
-			'a b b'
-			'a c d';
+			'a b c'
+			'a d e';
 	}
 	.project-img {
 		height: 100%;
@@ -587,13 +587,16 @@ Projects
 		grid-area: a;
 	}
 	.project-2 {
-		grid-area: c;
+		grid-area: b;
 	}
 	.project-3 {
-		grid-area: b;
+		grid-area: c;
 	}
 	.project-4 {
 		grid-area: d;
+	}
+	.project-5 {
+		grid-area: e;
 	}
 }
 .transition-4 {
@@ -861,4 +864,8 @@ Products Page
 .card-back-4 {
 	background: linear-gradient(rgba(53, 53, 53, 0.6), rgba(53, 53, 53, 0.6)),
 		url('../images/project-4.jpeg') center/cover no-repeat;
+}
+.card-back-5 {
+	background: linear-gradient(rgba(53, 53, 53, 0.6), rgba(53, 53, 53, 0.6)),
+		url('../images/project-5.jpeg') center/cover no-repeat;
 }
